@@ -12,3 +12,7 @@ ssh -N -L 8866:localhost:8866 username@server_address
 ## Open a web browser on your local machine and go to
 http://localhost:8866
 ## Copy and paste the token
+## Command for listing running notebooks
+jupyter notebook list
+## To terminate jupyter notebook
+jupyter notebook stop 8866
