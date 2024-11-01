@@ -13,7 +13,7 @@ ssh -N -L 8866:localhost:8866 aylwin@10.10.5.168
 | ssh -S none -N -L 58265:localhost:58265 kdl912@esrumhead01fl.unicph.domain
 ## Open a web browser on your local machine and go to
 http://localhost:8866
-http://localhost:58866
+http://localhost:58265
 ## Copy and paste the token
 ## Command for listing running notebooks
 jupyter notebook list
